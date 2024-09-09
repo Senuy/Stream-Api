@@ -2,6 +2,7 @@ package desafios;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Desafio10 {
@@ -14,8 +15,9 @@ public class Desafio10 {
 		
 		/**/List<Integer> mult3 = (List<Integer>) numeros.stream()
 				.filter( n -> n%2 != 0)
-				.filter( n -> n%3 ==0);
-		
+				.filter( n -> n%3 ==0 || n%5 == 0) // lembrar que da pra implementar operador lógico no campo das expressõe lambda
+				.collect(Collectors.toList());
+
 		
 		System.out.println(mult3);
 	}
