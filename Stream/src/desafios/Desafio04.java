@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Desafio4 {
+public class Desafio04 {
 	
 	//Desafio 4 - Remova todos os valores ímpares:
 	//Utilize a Stream API para remover os valores ímpares da lista e imprima a lista resultante no console.

@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.OptionalDouble;
 
-public class Desafio5 {
+public class Desafio05 {
 	//Desafio 5 - Calcule a média dos números maiores que 5:
 	//Com a Stream API, calcule a média dos números maiores que 5 e exiba o resultado no console.
 	
